@@ -27,16 +27,17 @@ import "../styles/global.css";
   </head>
   <body>
     <Header />
-    <section>
+    <main>
       <Hero />
       <About />
       <Projects />
       <Experience />
       <Education />
-    </section>
+    </main>
     <Footer />
 
     <script>
+      // Scroll reveal observer
       const observer = new IntersectionObserver(
         (entries) => {
           entries.forEach((entry) => {
@@ -46,9 +47,9 @@ import "../styles/global.css";
             }
           });
         },
-        { threshold: 0.1, rootMargin: "0px 0px -40px 0px" }
+        { root: null, rootMargin: "0px 0px -10% 0px", threshold: 0.1 }
       );
-      document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+      document.querySelectorAll(".reveal, .reveal-left, .reveal-right, .reveal-scale").forEach((el) => observer.observe(el));
     </script>
   </body>
 </html>

@@ -3,6 +3,16 @@ export const siteConfig = {
   title: "Analista de Datos | Estadística UNMSM",
   description: "Portfolio de Marylin Mamani - Analista de Datos y estudiante de Estadística en Lima, Perú",
   accentColor: "#1e40af",
+  highlightColor: "#f59e0b",
+
+  stats: [
+    { value: "4", label: "Experiencias profesionales" },
+    { value: "8+", label: "Herramientas de análisis" },
+    { value: "UNMSM", label: "Estadística" },
+  ],
+
+  tagline: "Transformo datos en decisiones. Estadística, ciencia de datos y análisis con impacto real.",
+
   social: {
     email: "marylinzaciga@gmail.com",
     linkedin: "https://linkedin.com/in/marylin-mamani-zaciga-36901337b",
