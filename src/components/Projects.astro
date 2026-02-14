@@ -8,8 +8,8 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
     <section id="projects" class="p-8 sm:p-12 md:p-16 lg:p-24">
       <div>
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-start">
-          <div class="lg:col-span-4">
-            <h2 class="text-3xl sm:text-4xl md:text-5xl xl:text-7xl font-bold text-gray-900">
+          <div class="lg:col-span-4 reveal">
+            <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
               Proyectos
             </h2>
             <div
@@ -31,12 +31,12 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                   : {};
 
                 return (
-                  <div class="group relative">
+                  <div class={`group relative reveal stagger-${index + 1}`}>
                     <Component
                       {...linkProps}
-                      class={`block relative p-4 sm:p-6 md:p-8 bg-gray-50 rounded-xl sm:rounded-2xl border border-gray-200 transition-all duration-300 ${
+                      class={`card-hover block relative p-4 sm:p-6 md:p-8 bg-gray-50 rounded-xl sm:rounded-2xl border border-gray-200 ${
                         project.link
-                          ? "hover:bg-white hover:shadow-xl hover:border-gray-300 hover:-translate-y-1"
+                          ? "hover:bg-white hover:border-gray-300"
                           : ""
                       }`}
                     >
