@@ -13,6 +13,7 @@ export const siteConfig = {
 
   tagline: "Transformo datos en decisiones. Estadística, ciencia de datos y análisis con impacto real.",
 
+  phone: "929946284",
   social: {
     email: "marylinzaciga@gmail.com",
     linkedin: "https://linkedin.com/in/marylin-mamani-zaciga-36901337b",
