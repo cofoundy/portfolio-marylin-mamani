@@ -2,8 +2,8 @@ export const siteConfig = {
   name: "Marylin Camila Mamani Zaciga",
   title: "Analista de Datos | Estadística UNMSM",
   description: "Portfolio de Marylin Mamani - Analista de Datos y estudiante de Estadística en Lima, Perú",
-  accentColor: "#1e40af",
-  highlightColor: "#f59e0b",
+  accentColor: "#3B7A6B",
+  highlightColor: "#6B7B73",
 
   stats: [
     { value: "4", label: "Experiencias profesionales" },
