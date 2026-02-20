@@ -1,4 +1,4 @@
-# Portfolio - Marylin Mamani
+# Portfolio — Marylin Mamani
 
 Portafolio profesional de Marylin Camila Mamani Zaciga.
 
@@ -6,21 +6,23 @@ Portafolio profesional de Marylin Camila Mamani Zaciga.
 
 ## Tech Stack
 
-- [Astro](https://astro.build/) - Framework
-- [Tailwind CSS](https://tailwindcss.com/) - Estilos
-- [TypeScript](https://www.typescriptlang.org/) - Tipado
+- [Astro](https://astro.build/) — Framework
+- [Tailwind CSS](https://tailwindcss.com/) — Estilos
+- [TypeScript](https://www.typescriptlang.org/) — Tipado
 
-## Estructura
+## Editar contenido
+
+Todos los datos del portafolio están en `src/config.ts`. Edita ese archivo para actualizar tu información.
 
 ```
 src/
-├── config.ts          # Datos del portafolio (editar aquí)
+├── config.ts          # ← Tus datos van aquí
 ├── components/        # Componentes visuales
 ├── layouts/           # Layout principal
 └── pages/             # Páginas
 public/
 ├── profile.jpg        # Foto de perfil
-└── favicon.svg        # Ícono
+└── favicon.svg        # Ícono del sitio
 ```
 
 ## Desarrollo local
@@ -31,6 +33,14 @@ npm run dev      # http://localhost:4321
 npm run build    # Generar sitio estático
 ```
 
-## Editar contenido
+---
 
-Todos los datos del portafolio están en `src/config.ts`. Edita ese archivo para actualizar tu información.
+<p align="center">
+  <a href="https://cofoundy.dev">
+    <img src="https://i.imgur.com/s8ah1HT.png" alt="Cofoundy" width="36">
+  </a>
+  <br>
+  <sub>Hecho con amor por <a href="https://cofoundy.dev">Cofoundy</a></sub>
+  <br>
+  <sub>¿Necesitas una landing page, chatbot con IA o potenciar tu marca digital? <a href="https://cofoundy.dev">Escríbenos</a></sub>
+</p>
